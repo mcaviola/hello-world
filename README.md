@@ -1,5 +1,5 @@
 # hello-world
 Personal sandbox repository
 
-This file is just used for test purposes.
-This line has initially been added in the "readme-edits" branch.
+This project is used for test purposes.
+It contains some viz files, which can be used as input for Graphviz.
