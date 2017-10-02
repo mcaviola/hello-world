@@ -2,6 +2,6 @@ digraph {
     splines=line
     rankdir=LR
     pad=0.5
-    node [fontname=calibri]
+    node [fontname=calibri, style=filled, fillcolor=blue, fontcolor=white]
     plan -> do -> check -> act -> plan
 }
