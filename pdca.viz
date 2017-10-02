@@ -1,0 +1,7 @@
+digraph {
+    splines=line
+    rankdir=LR
+    pad=0.5
+    node [fontname=calibri]
+    plan -> do -> check -> act -> plan
+}
