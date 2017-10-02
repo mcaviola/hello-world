@@ -1,7 +1,9 @@
 digraph {
-    splines=line
+    splines=polyline
     rankdir=LR
     pad=0.5
-    node [fontname=calibri, style=filled, fillcolor=blue, fontcolor=white]
-    plan -> do -> check -> act -> plan
+    node [fontname=calibri]
+    subgraph cluster_0 {
+        plan -> do -> check -> act -> plan
+    }
 }
